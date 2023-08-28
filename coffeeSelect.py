@@ -27,6 +27,8 @@ yellow_mask = cv2.inRange(hsv_image, yellow_lower, yellow_upper)
 black_mask = cv2.inRange(hsv_image, black_lower, black_upper)
 brown_mask = cv2.inRange(hsv_image, brown_lower, brown_upper)
 
+
+
 # 使用不同的颜色标注每种咖啡豆的区域
 yellow_color = (0, 255, 255)  # 黄色
 black_color = (255, 0, 0)  # 蓝色
